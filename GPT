@@ -1,0 +1,40 @@
+It turned out that this old project can be totally impelemnted by ChatGPT. Here is the chat history I guided it to generate this software (not including the actual code). 
+
+
+Q: I am an engineering manager. I want you to help me write a python software where I can manage my team. I will provide the key functionalities. 
+A: Sure, I'd be happy to help you with that. Please provide me with the key functionalities you want in the software, and any additional information that might be helpful for me to understand your requirements.
+
+Q: The software will be used in cmd format, the software name is called "team"
+A: Got it. What are the key functionalities you want in the "team" software? Here are some common functionalities that might be helpful for managing a team:
+
+    Add a new team member
+    Remove a team member
+    View the list of team members
+    View the details of a specific team member
+    Update the details of a team member
+    Assign a task to a team member
+    View the list of tasks assigned to team members
+    Update the status of a task
+    Generate a report of team member performance
+    Generate a report of project progress
+    Please let me know if you want any of these functionalities, or if there are any other functionalities you would like me to add to the software.
+
+
+Q: Keep the following functionalities: 
+  1. Add a new team member
+  2. Remove a team member
+  3. View the list of team members
+  4. View the details of a specific team member
+  5. Update the details of a team member
+A: Sure, here's a basic Python program that implements these functionalities:
+
+
+Q: Good start. let's refine the "member detail" info. 
+  I need the "member detail" to contain following informations for each member:
+  1. A history of 1:1 notes (keyed by date)
+  2. The member's career goal
+  3. A history of the performance review of the member (every half)
+A: Okay, here's a modified version of the previous program that includes the additional information for each team member:
+
+Q: let's break down the "update_team_member_details" API into (1) add a new 1:1 note (2) update career goal and (3) add a new performance review note. 
+A: Sure! Here is a modified version of the program that includes separate functions to add a 1:1 note, update the career goal, and add a performance review note for a specific team member:
